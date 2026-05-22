@@ -20,7 +20,7 @@ Unlike conventional crowd monitoring systems that rely primarily on density esti
 
 ### Main Analytical Dashboard
 
-![Dashboard](screenshots/dashboard_overview.png)
+![Dashboard](screenshots/Main_Interface.png)
 
 ---
 
