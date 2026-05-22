@@ -2,6 +2,8 @@
 
 Interpretable AI for Preventive Crowd Safety Monitoring
 
+---
+
 ## Overview
 
 CrowdTune is a physics-inspired crowd instability analysis framework that models crowd behavior as a continuous structural process using:
@@ -11,6 +13,16 @@ CrowdTune is a physics-inspired crowd instability analysis framework that models
 - Collective Coherence (C)
 
 Unlike conventional crowd monitoring systems that rely primarily on density estimation or anomaly detection, CrowdTune provides interpretable instability analysis, regime transition modeling, and short-horizon forecasting for preventive crowd safety intelligence.
+
+---
+
+## Dashboard Preview
+
+### Main Analytical Dashboard
+
+![Dashboard](screenshots/dashboard_overview.png)
+
+---
 
 ## Core Features
 
@@ -23,15 +35,97 @@ Unlike conventional crowd monitoring systems that rely primarily on density esti
 - Real-time analytical dashboard
 - Scene masking and region annotation
 
+---
+
+## Crowd Physics Framework
+
+CrowdTune models instability through interaction between:
+
+| Signal | Description |
+|---|---|
+| Spatial Constraint (S) | Environmental compression and restriction |
+| Kinematic Activity (K) | Crowd motion intensity and velocity |
+| Collective Coherence (C) | Coordinated movement synchronization |
+
+Composite interaction:
+
+```math
+CCI = S \times K \times C
+```
+
+---
+
+## Experimental Scenarios
+
+| Scenario | Crowd Regime |
+|---|---|
+| Shibuya Crossing | Gas-like |
+| Akron Marathon | Fluid-like |
+| Oasis Concert Compression | Granular-like |
+
+---
+
+## Technical Stack
+
+### Programming & Frameworks
+- Python
+- PyQt6
+
+### Computer Vision
+- OpenCV
+- Optical Flow (RLOF)
+- Shi–Tomasi Feature Detection
+- Sobel Gradient Analysis
+
+### Data & Analytics
+- NumPy
+- Pandas
+- Signal Processing
+- Time-Series Forecasting
+
+---
+
 ## Research Focus
 
-CrowdTune models crowd instability as a continuous structural phenomenon driven by:
+Current research directions include:
 
-- spatial compression
-- motion irregularity
-- coherence breakdown
-- temporal instability evolution
+- Adaptive instability forecasting
+- Crowd regime transition analysis
+- Preventive crowd safety systems
+- Interpretable AI for public-space monitoring
+- Physics-inspired crowd dynamics modeling
 
-## Status
+---
 
-Ongoing undergraduate research project focused on interpretable crowd dynamics and preventive crowd safety systems.
+## Repository Structure
+
+```bash
+CrowdTune/
+│
+├── docs/
+├── screenshots/
+├── src/
+├── datasets/
+├── results/
+└── demo/
+```
+
+---
+
+## Research & Academic Engagement
+
+- IEEE International Online Conference (Japan)
+- Submitted to Prototype for Humanity (Dubai)
+
+---
+
+## Author
+
+Hariz Ahmad Fauzi
+
+Information Technology Undergraduate  
+Applied Data Science Major  
+Universiti Utara Malaysia (UUM)
+
+Areas of Interest:
+Computer Vision • Real-Time Analytics • Applied AI • Intelligent Systems
