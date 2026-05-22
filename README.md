@@ -24,6 +24,20 @@ Unlike conventional crowd monitoring systems that rely primarily on density esti
 
 ---
 
+### Forecasting Module
+
+![Forecasting](screenshots/forecasting_panel.png)
+
+---
+
+### Crowd Regime Analysis
+
+![Regime](screenshots/regime_analysis.png)
+
+## System Architecture
+
+![Architecture](docs/CrowdTune_Architecture.png)
+
 ## Core Features
 
 - Real-time crowd instability monitoring
