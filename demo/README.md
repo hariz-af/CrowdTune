@@ -1,16 +1,12 @@
-# CrowdTune Demonstrations
+## System Demonstration
 
-This folder contains demonstration materials related to:
+### CrowdTune Live Demonstration
 
-- real-time instability monitoring
-- forecasting visualization
-- regime analysis
-- dashboard interaction
-- analytical workflow presentation
+![CrowdTune Demo](demo/crowdtune_preview.gif)
 
-Future updates may include:
+A short demonstration showcasing:
 
-- short demonstration videos
-- animated dashboard previews
-- forecasting walkthroughs
-- scenario-based analytical demonstrations
+- real-time crowd instability monitoring
+- structural signal evolution
+- regime interpretation
+- adaptive forecasting behavior
