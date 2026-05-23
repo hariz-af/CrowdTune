@@ -41,7 +41,7 @@ CrowdTune addresses this limitation by modeling instability as a continuous stru
 
 ### Main Analytical Interface
 
-![Dashboard](screenshots/Main_Interface.png)
+![Dashboard](screenshots/main_interface.png)
 
 ---
 
