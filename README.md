@@ -9,6 +9,14 @@ Interpretable AI for Preventive Crowd Safety Monitoring
 
 ---
 
+## Repository Notice
+
+CrowdTune is an ongoing research-oriented analytical framework currently under active development and refinement.
+
+Selected implementation components remain private during this stage while the system methodology, architecture, and analytical concepts are publicly presented for research and portfolio purposes.
+
+---
+
 ## Overview
 
 CrowdTune is a physics-inspired crowd instability analysis framework that models crowd behavior as a continuous structural process using:
