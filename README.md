@@ -16,6 +16,14 @@ Unlike conventional crowd monitoring systems that rely primarily on density esti
 
 ---
 
+## Motivation
+
+Conventional crowd monitoring systems often rely on density estimation, anomaly detection, or reactive event-based surveillance. While effective for observing visible crowd conditions, these approaches may struggle to explain how instability gradually emerges within high-density environments.
+
+CrowdTune addresses this limitation by modeling instability as a continuous structural process driven by spatial constraint, motion behavior, and collective coherence interactions.
+
+---
+
 ## Dashboard Preview
 
 ### Main Analytical Dashboard
@@ -33,6 +41,8 @@ Unlike conventional crowd monitoring systems that rely primarily on density esti
 ### Crowd Regime Analysis
 
 ![Regime](screenshots/regime_analysis.png)
+
+---
 
 ## System Architecture
 
@@ -69,6 +79,18 @@ CCI = S \times K \times C
 
 ---
 
+## Privacy-Aware Design
+
+CrowdTune performs non-identity-based crowd analysis without:
+
+- facial recognition
+- biometric identification
+- personal identity tracking
+
+The framework focuses on collective crowd dynamics rather than individual identity analysis, supporting privacy-aware crowd safety monitoring.
+
+---
+
 ## Experimental Scenarios
 
 | Scenario | Crowd Regime |
@@ -99,6 +121,19 @@ CCI = S \times K \times C
 
 ---
 
+## Current Limitations
+
+Current limitations include:
+
+- dependency on fixed surveillance viewpoints
+- manual polygon-based scene masking
+- single-camera analytical environments
+- sensitivity to severe perspective variation
+
+The current implementation is intended as an interpretable analytical prototype for preventive crowd instability monitoring.
+
+---
+
 ## Research Focus
 
 Current research directions include:
@@ -108,6 +143,51 @@ Current research directions include:
 - Preventive crowd safety systems
 - Interpretable AI for public-space monitoring
 - Physics-inspired crowd dynamics modeling
+
+---
+
+## Research Contribution
+
+CrowdTune contributes an interpretable crowd instability framework that transforms crowd monitoring from passive observation and density estimation toward preventive, explainable, and physics-informed crowd safety intelligence.
+
+---
+
+## Deployment Context
+
+CrowdTune is designed for integration with:
+
+- CCTV infrastructure
+- transport surveillance environments
+- stadium monitoring systems
+- smart city environments
+- public safety command centers
+
+The framework currently operates as a desktop-based analytical prototype for research and preventive crowd safety analysis.
+
+---
+
+## Future Work
+
+Potential future enhancements include:
+
+- multi-camera crowd fusion
+- depth-aware instability estimation
+- transformer-based temporal modeling
+- real-time evacuation support
+- smart city integration
+- adaptive scene understanding
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/hariz-af/CrowdTune.git
+
+cd CrowdTune
+
+pip install -r requirements.txt
+```
 
 ---
 
@@ -130,6 +210,12 @@ CrowdTune/
 
 - IEEE International Online Conference (Japan)
 - Submitted to Prototype for Humanity (Dubai)
+
+---
+
+## Project Status
+
+Ongoing undergraduate research project focused on interpretable crowd instability modeling, real-time analytics, and preventive crowd safety systems.
 
 ---
 
