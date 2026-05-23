@@ -2,7 +2,7 @@
 
 ### CrowdTune Live Demonstration
 
-![CrowdTune Demo](demo/crowdtune_preview.gif)
+![CrowdTune Demo](crowdtune_preview.gif)
 
 A short demonstration showcasing:
 
