@@ -48,6 +48,8 @@ CrowdTune addresses this limitation by modeling instability as a continuous stru
 
 ![Architecture](docs/CrowdTune_Architecture.png)
 
+---
+
 ## Core Features
 
 - Real-time crowd instability monitoring
