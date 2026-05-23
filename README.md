@@ -4,6 +4,11 @@ Interpretable AI for Preventive Crowd Safety Monitoring
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Research_Prototype-orange)
+
+---
+
 ## Overview
 
 CrowdTune is a physics-inspired crowd instability analysis framework that models crowd behavior as a continuous structural process using:
@@ -66,6 +71,8 @@ CrowdTune addresses this limitation by modeling instability as a continuous stru
 ## System Architecture
 
 ![Architecture](docs/CrowdTune_Architecture.png)
+
+The CrowdTune architecture follows a layered analytical pipeline for interpretable instability modeling, forecasting, and regime-aware crowd monitoring.
 
 ---
 
@@ -238,7 +245,7 @@ CrowdTune/
 ## Research & Academic Engagement
 
 - IEEE International Online Conference (Japan)
-- Submitted to Prototype for Humanity (Dubai)
+- CrowdTune submitted to Prototype for Humanity (Dubai), an international innovation platform focused on impactful student-led technologies.
 
 ---
 
