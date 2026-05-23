@@ -74,8 +74,16 @@ CrowdTune models instability through interaction between:
 Composite interaction:
 
 ```math
-CCI = S \times K \times C
+CCI(t) = S(0.4K + 0.6(1 - C))
 ```
+
+Where:
+
+- \(S\) = Spatial Constraint
+- \(K\) = Kinematic Activity
+- \(C\) = Collective Coherence
+
+All signals are normalized within \([0,1]\).
 
 ---
 
