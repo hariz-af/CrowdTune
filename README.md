@@ -26,15 +26,34 @@ CrowdTune addresses this limitation by modeling instability as a continuous stru
 
 ## Dashboard Preview
 
-### Main Analytical Dashboard
+### Main Analytical Interface
 
 ![Dashboard](screenshots/Main_Interface.png)
 
 ---
 
+### Segmentation & Masking
+
+![Masking](screenshots/crowd_segmentation_masking.png)
+
+---
+
+### Real-Time Monitoring
+
+![Monitor1](screenshots/realtime_monitoring_1.png)
+![Monitor2](screenshots/realtime_monitoring_2.png)
+
+---
+
+### Analysis Module
+
+![Analysis](screenshots/analysis_module.png)
+
+---
+
 ### Forecasting Module
 
-![Forecasting](screenshots/forecasting_panel.png)
+![Forecast](screenshots/forecasting_module.png)
 
 ---
 
