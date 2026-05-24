@@ -237,18 +237,6 @@ Potential future enhancements include:
 
 ---
 
-## Installation
-
-```bash
-git clone https://github.com/hariz-af/CrowdTune.git
-
-cd CrowdTune
-
-pip install -r requirements.txt
-```
-
----
-
 ## Repository Structure
 
 ```bash
