@@ -2,6 +2,8 @@
 
 Interpretable AI for Preventive Crowd Safety Monitoring
 
+Physics-inspired crowd instability analysis using computer vision, interpretable analytics, and real-time forecasting.
+
 ---
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -13,7 +15,7 @@ Interpretable AI for Preventive Crowd Safety Monitoring
 
 CrowdTune is an ongoing research-oriented analytical framework currently under active development and refinement.
 
-Selected implementation components remain private during this stage while the system methodology, architecture, and analytical concepts are publicly presented for research and portfolio purposes.
+Selected implementation details and analytical formulations are not publicly disclosed at this stage. This repository focuses on the system architecture, capabilities, and high-level framework concepts.
 
 ---
 
@@ -121,19 +123,11 @@ CrowdTune models instability through interaction between:
 | Kinematic Activity (K) | Crowd motion intensity and velocity |
 | Collective Coherence (C) | Coordinated movement synchronization |
 
-Composite interaction:
+These signals are fused into a set of analytical indicators that estimate structural instability, temporal stability, and operational crowd risk.
 
-```math
-CCI(t) = S(0.4K + 0.6(1 - C))
-```
+The framework emphasizes interpretability by preserving explicit relationships between observable crowd behavior and resulting analytical outputs.
 
-Where:
-
-- \(S\) = Spatial Constraint
-- \(K\) = Kinematic Activity
-- \(C\) = Collective Coherence
-
-All signals are normalized within \([0,1]\).
+Detailed mathematical formulations are not publicly disclosed.
 
 ---
 
@@ -254,8 +248,8 @@ CrowdTune/
 
 ## Research & Academic Engagement
 
-- IEEE International Online Conference (Japan)
-- CrowdTune submitted to Prototype for Humanity (Dubai), an international innovation platform focused on impactful student-led technologies.
+- Presented at an IEEE International Conference (Japan)
+- Submitted to Prototypes for Humanity (Dubai), an international platform showcasing impactful student-led innovations
 
 ---
 
