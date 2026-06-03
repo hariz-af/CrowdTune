@@ -1,6 +1,6 @@
 # CrowdTune Framework Overview
 
-Introduction
+## Introduction
 
 CrowdTune is a real-time crowd instability analysis framework that combines computer vision, interpretable AI, and physics-inspired modeling to support preventive crowd safety monitoring.
 
@@ -10,23 +10,23 @@ The framework is designed to provide transparent and interpretable insights that
 
 ---
 
-Core Analytical Signals
+## Core Analytical Signals
 
 CrowdTune evaluates crowd behavior through three interpretable structural signals:
 
-Spatial Constraint (S)
+### Spatial Constraint (S)
 
 Represents the degree of environmental restriction and movement limitation within a crowd environment.
 
 Higher values indicate increased crowd compression and reduced movement freedom.
 
-Kinematic Activity (K)
+### Kinematic Activity (K)
 
 Represents the intensity of collective crowd movement and motion dynamics.
 
 Higher values indicate stronger movement activity and increased interaction between crowd members.
 
-Collective Coherence (C)
+### Collective Coherence (C)
 
 Represents the degree of directional synchronization and coordinated movement across the crowd.
 
@@ -34,20 +34,20 @@ Higher values indicate more organized and collectively aligned behavior.
 
 ---
 
-Structural Instability Modeling
+## Structural Instability Modeling
 
 CrowdTune synthesizes these signals into a set of analytical indicators that estimate:
 
-* Structural crowd instability
-* Temporal stability conditions
-* Operational risk tendencies
-* Instability trend evolution
+- Structural crowd instability
+- Temporal stability conditions
+- Operational risk tendencies
+- Instability trend evolution
 
 The framework emphasizes interpretability by preserving clear relationships between observable crowd behavior and resulting analytical outputs.
 
 ---
 
-Physics-Inspired Crowd Regimes
+## Physics-Inspired Crowd Regimes
 
 To support intuitive interpretation, CrowdTune models crowd behavior through continuous structural tendencies inspired by physical systems:
 
@@ -59,7 +59,7 @@ These regimes are not treated as discrete classifications but as continuous tend
 
 ---
 
-Forecasting and Monitoring
+## Forecasting and Monitoring
 
 CrowdTune incorporates a short-horizon forecasting layer that estimates the near-future evolution of instability conditions using temporal crowd behavior patterns.
 
@@ -72,7 +72,7 @@ The forecasting component is intended to support:
 
 ---
 
-System Architecture
+## System Architecture
 
 The framework consists of six major layers:
 
@@ -87,7 +87,7 @@ These components operate together to transform live or recorded crowd footage in
 
 ---
 
-Technology Stack
+## Technology Stack
 
 Key technologies used in CrowdTune include:
 
@@ -101,7 +101,7 @@ Key technologies used in CrowdTune include:
 
 ---
 
-Applications
+## Applications
 
 Potential application areas include:
 
@@ -113,7 +113,7 @@ Potential application areas include:
 
 ---
 
-Research Status
+## Research Status
 
 CrowdTune is an active research and development project focused on interpretable crowd analytics and preventive safety monitoring.
 
@@ -121,7 +121,7 @@ The project has been presented at an IEEE international conference and submitted
 
 ---
 
-Note
+## Note
 
 This repository provides a high-level overview of the CrowdTune framework.
 
