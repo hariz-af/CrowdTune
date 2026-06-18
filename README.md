@@ -88,7 +88,7 @@ A short demonstration showcasing:
 
 ### Main Analytical Interface
 
-![Dashboard](screenshots/main_interface.png)
+![Dashboard](screenshots/nterface.png)
 
 ---
 
