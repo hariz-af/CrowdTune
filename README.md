@@ -118,7 +118,7 @@ A short demonstration showcasing:
 
 ## System Architecture
 
-![Architecture](docs/CrowdTune_Architecture.png)
+![Architecture](docs/crowdTune_systtem_architecture.png)
 
 Input Video
 ↓
