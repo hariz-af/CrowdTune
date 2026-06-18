@@ -72,7 +72,7 @@ CrowdTune addresses this limitation by modeling instability as a continuous stru
 
 ## System Demonstration
 
-![CrowdTune Demo](demo/crowdtune_demo.gif)
+![CrowdTune Demo](demo/crowdtune_preview.gif)
 
 A short demonstration showcasing:
 
