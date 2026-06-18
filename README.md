@@ -6,8 +6,29 @@ Physics-inspired crowd instability analysis using computer vision, interpretable
 
 ---
 
+> Presented research on interpretable crowd instability modelling at an IEEE International Conference (Japan)
+>
+> Submitted to Prototypes for Humanity (Dubai)
+
+---
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Research_Prototype-orange)
+
+---
+
+## Quick Start
+
+This repository showcases the CrowdTune framework.
+
+The public repository focuses on system architecture, demonstrations, and research outputs. Core implementation components are not publicly distributed.
+
+To explore the project:
+
+1. Review the architecture section
+2. Watch the demonstration video
+3. Explore dashboard screenshots
+4. Read the methodology documentation
 
 ---
 
@@ -31,6 +52,16 @@ Unlike conventional crowd monitoring systems that rely primarily on density esti
 
 ---
 
+## Why CrowdTune Matters
+
+Crowd disasters are often preceded by subtle structural instability, including crowd compression, coherence breakdown, and motion irregularity.
+
+Many existing systems focus on density estimation or anomaly detection, but provide limited explanation of why risk is increasing.
+
+CrowdTune was developed to provide interpretable crowd safety intelligence, helping operators understand how instability emerges before dangerous conditions become visible.
+
+---
+
 ## Motivation
 
 Conventional crowd monitoring systems often rely on density estimation, anomaly detection, or reactive event-based surveillance. While effective for observing visible crowd conditions, these approaches may struggle to explain how instability gradually emerges within high-density environments.
@@ -48,7 +79,7 @@ A short demonstration showcasing:
 - real-time crowd instability monitoring
 - structural signal evolution
 - regime interpretation
-- adaptive forecasting behavior
+- short-horizon forecasting behavior
 
 ---
 
@@ -96,6 +127,18 @@ A short demonstration showcasing:
 
 ![Architecture](docs/CrowdTune_Architecture.png)
 
+Input Video
+↓
+Region Masking
+↓
+Signal Extraction
+↓
+Instability Modelling
+↓
+Forecasting
+↓
+Dashboard Visualization
+
 The CrowdTune architecture follows a layered analytical pipeline for interpretable instability modeling, forecasting, and regime-aware crowd monitoring.
 
 ---
@@ -103,10 +146,8 @@ The CrowdTune architecture follows a layered analytical pipeline for interpretab
 ## Core Features
 
 - Real-time crowd instability monitoring
-- Crowd Constraint Index (CCI)
-- Stability Index (SI)
-- Risk Index (RI)
-- Adaptive Kalman-based forecasting
+- Interpretable crowd instability indicators
+- Short-horizon instability forecasting
 - Gas-like, Fluid-like, and Granular-like regime interpretation
 - Real-time analytical dashboard
 - Scene masking and region annotation
@@ -153,6 +194,20 @@ The framework focuses on collective crowd dynamics rather than individual identi
 
 ---
 
+## Validation Highlights
+
+The framework was evaluated using representative crowd scenarios exhibiting distinct structural crowd regimes.
+
+Key observations included:
+
+- Low instability under sparse gas-like conditions
+- Stable coordinated flow within fluid-like conditions
+- Rising instability and coherence breakdown under granular-like compression
+
+These observations support the interpretation of crowd instability as a structural process rather than a density-only phenomenon.
+
+---
+
 ## Technical Stack
 
 ### Programming & Frameworks
@@ -188,19 +243,13 @@ The current implementation is intended as an interpretable analytical prototype 
 
 ## Research Focus
 
-Current research directions include:
-
-- Adaptive instability forecasting
-- Crowd regime transition analysis
-- Preventive crowd safety systems
-- Interpretable AI for public-space monitoring
-- Physics-inspired crowd dynamics modeling
+Current research focuses on interpretable crowd analytics and preventive crowd safety intelligence.
 
 ---
 
 ## Research Contribution
 
-CrowdTune contributes an interpretable crowd instability framework that transforms crowd monitoring from passive observation and density estimation toward preventive, explainable, and physics-informed crowd safety intelligence.
+CrowdTune introduces a physics-inspired framework for modelling crowd instability as a continuous structural process rather than a density-only problem. By combining interpretable crowd signals with real-time analytics and forecasting, the framework aims to support earlier understanding of emerging crowd risk conditions.
 
 ---
 
@@ -228,28 +277,6 @@ Potential future enhancements include:
 - real-time evacuation support
 - smart city integration
 - adaptive scene understanding
-
----
-
-## Repository Structure
-
-```bash
-CrowdTune/
-│
-├── docs/
-├── screenshots/
-├── src/
-├── datasets/
-├── results/
-└── demo/
-```
-
----
-
-## Research & Academic Engagement
-
-- Presented at an IEEE International Conference (Japan)
-- Submitted to Prototypes for Humanity (Dubai), an international platform showcasing impactful student-led innovations
 
 ---
 
