@@ -94,7 +94,7 @@ A short demonstration showcasing:
 
 ### Segmentation & Masking
 
-![Masking](screenshots/crowd_segmentation_masking.png)
+![Masking](screenshots/segmentation_masking.png)
 
 ---
 
