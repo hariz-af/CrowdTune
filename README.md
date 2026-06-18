@@ -113,7 +113,7 @@ A short demonstration showcasing:
 
 ### Forecasting Module
 
-![Forecast](screenshots/forecasting_module.png)
+![Forecast](screenshots/forecasting.png)
 
 ---
 
