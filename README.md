@@ -105,12 +105,6 @@ A short demonstration showcasing:
 
 ---
 
-### Analysis Module
-
-![Analysis](screenshots/analysis_module.png)
-
----
-
 ### Forecasting Module
 
 ![Forecast](screenshots/forecasting.png)
