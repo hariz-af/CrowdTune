@@ -101,7 +101,6 @@ A short demonstration showcasing:
 ### Real-Time Monitoring
 
 ![Monitor1](screenshots/realtime_monitoring_1.png)
-![Monitor2](screenshots/realtime_monitoring_2.png)
 
 ---
 
