@@ -113,7 +113,7 @@ A short demonstration showcasing:
 
 ### Crowd Regime Analysis
 
-![Regime](screenshots/regime_analysis.png)
+![Regime](screenshots/regime_map.png)
 
 ---
 
